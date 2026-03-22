@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RV Productions</title>
+  <style>
+    :root{--gold:#ddb42d;}
+    body{margin:0;font-family:'Segoe UI',sans-serif;background:#000;color:#fff;scroll-behavior:smooth}
+
+    header{position:fixed;width:100%;top:0;background:rgba(0,0,0,.85);padding:15px;text-align:center;z-index:1000;border-bottom:1px solid var(--gold);backdrop-filter: blur(8px)}
+    header h1{margin:0;color:var(--gold);letter-spacing:2px}
+
+    section{padding:110px 20px;text-align:center;animation:fadeIn 1.2s ease}
+
+    .hero{height:100vh;display:flex;justify-content:center;align-items:center;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.95)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') no-repeat center/cover}
+    .hero h2{font-size:34px;max-width:700px;text-shadow:0 0 20px rgba(212,175,55,.6)}
+
+    .btn{display:inline-block;padding:12px 28px;margin-top:20px;background:var(--gold);color:#000;text-decoration:none;border-radius:30px;transition:.3s;box-shadow:0 0 15px rgba(212,175,55,.7)}
+    .btn:hover{background:#fff;transform:scale(1.08);box-shadow:0 0 25px rgba(255,255,255,.9)}
+
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+
+    /* GLASS UI */
+    .card{padding:25px;border-radius:15px;background:rgba(255,255,255,.05);backdrop-filter: blur(12px);border:1px solid rgba(255,255,255,.1);transition:.3s}
+    .card:hover{transform:translateY(-10px);box-shadow:0 0 20px rgba(212,175,55,.6);border:1px solid var(--gold)}
+
+    footer{background:#111;padding:20px;text-align:center;border-top:1px solid var(--gold)}
+
+    /* FORM */
+    form{max-width:400px;margin:auto}
+    input, textarea{width:100%;padding:10px;margin:8px 0;border:none;border-radius:8px;background:rgba(255,255,255,.1);color:#fff}
+    input::placeholder, textarea::placeholder{color:#ccc}
+    button{padding:10px 20px;background:var(--gold);border:none;border-radius:20px;cursor:pointer;box-shadow:0 0 10px rgba(212,175,55,.7)}
+    button:hover{background:#fff}
+
+    @keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex; align-items:center; justify-content:center; gap:10px;">
+  <img src="D:\RV Production\RV LOGO.jpeg" width="140">
+  <h1>RV Productions</h1>
+</div>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>We Don't Just Create Videos, We Create Emotions & Turning Vision into Cinematic Reality</h2>
+    <a href="#contact" class="btn">Hire Us</a>
+  </div>
+</section>
+
+<section>
+  <h2>About Us</h2>
+  <div class="card">
+    <p>RV Productions is a passionate film and music production house focused on cinematic storytelling, emotional music, and powerful visuals.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">🎬 Film Production</div>
+    <div class="card">🎶 Music Videos</div>
+    <div class="card">📸 Short Films</div>
+    <div class="card">🎥 Web Series</div>
+  </div>
+</section>
+
+<section>
+  <h2>Core Divisions</h2>
+  <div class="services">
+    <div class="card">RV Music</div>
+    <div class="card">RV Films</div>
+    <div class="card">RV Originals</div>
+    <div class="card">RV Talent</div>
+  </div>
+</section>
+
+<head>
+  <style>
+    .portfolio {
+      padding: 60px 20px;
+      backdrop-filter: blur(10px);
+      color: rgb(215, 176, 139);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .portfolio h1 {
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(90deg, #ffb300, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+    .portfolio h2 {
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(90deg, #ffb300, #f78b55);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .content ul {
+  list-style: none;   
+  padding-left: 0;    
+}
+
+.content h2 {
+  margin-top: 40px;   /* upar gap */
+  margin-bottom: 10px; /* niche gap */
+}
+
+.content ul li {
+  margin-bottom: 8px;
+}
+
+  </style>
+</head>
+
+<section class="portfolio">
+  <div class="container">
+    <h1> RV Productions</h1>
+    <p class="tagline">Where Stories Come to Life</p>
+
+    <div class="content">
+      <h2>About Us</h2>
+      <p>
+        RV Productions is a creative media production house dedicated to turning ideas into powerful visual experiences.
+        We specialize in cinematic storytelling, soulful music production, and engaging digital content.
+      </p>
+
+      <h2>What We Do</h2>
+      <ul>
+        <li> Film & Video Production</li>
+        <li> Music Production</li>
+        <li> Ad Films & Commercials</li>
+        <li> Content Creation</li>
+      </ul>
+
+      <h2>Our Vision</h2>
+      <p>To become a leading creative production house that inspires and connects through storytelling.</p>
+
+      <h2>Our Mission</h2>
+      <ul>
+        <li>Deliver high-quality creative content</li>
+        <li>Support new talent</li>
+        <li>Innovate in music & film</li>
+        <li>Create emotional impact</li>
+      </ul>
+
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Creative storytelling</li>
+        <li>High-quality production</li>
+        <li>Passionate team</li>
+        <li>Modern & trendy approach</li>
+      </ul>
+
+      <h2>Let’s Work Together</h2>
+      <p>Have an idea? Let’s turn it into reality.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="card">
+    <!-- Working form using Formspree (replace action URL) -->
+    <form action="https://formspree.io/forms" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="font-size:12px;margin-top:10px;opacity:.7">Email : contact.ritul.official@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 RV Productions | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
